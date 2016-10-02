@@ -1,11 +1,42 @@
-.login-body {
+.body {
+	margin: 0px;
+}
+.content {
 	width: 400px;
 	height: 600px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+/*	justify-content: center;*/
+	background-color: #dddddd;
+	overflow: scroll;
 }
 
 .login-btn {
 	align-self: center;
+	height: 90px;
+	width: 240px;
+	background-color: #1b4484;
+	color: white;
+	font-size: 18px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+ul {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+li {
+	list-style-type: none;
+	height: 50px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
 }
